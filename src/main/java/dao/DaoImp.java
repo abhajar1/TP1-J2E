@@ -2,7 +2,7 @@ package dao;
 
 
 import org.springframework.stereotype.Component;
-
+//DAO (Data Access Object)
 @Component("dao")
 public class DaoImp implements IDao{
 

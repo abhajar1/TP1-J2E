@@ -33,5 +33,8 @@ public class Pres2 {
         System.out.println("Resultat="+metier.calcul());
         //System.out.println(dao.getData());
         s.close();
+
+        //NOTES : -- L'instanciation dynamique permet de créer un objet de type DAO
+        // sans que le code ne soit directement dépendant de la classe concrète du DAO.
     }
 }
